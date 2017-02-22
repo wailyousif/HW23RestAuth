@@ -1,0 +1,8 @@
+{
+  "name": "My Heroku Chat App",
+  "description": "Default user wail/wail",
+  "website": "http://tiy-wail-1.herokuapp.com",
+  "repository": "https://github.com/wailyousif",
+  "image": "heroku/java",
+  "addons": [ "heroku-postgresql" ]
+}

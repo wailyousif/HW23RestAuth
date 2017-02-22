@@ -1,0 +1,438 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="postgres@localhost">
+  <database-model serializer="dbm" rdbms="POSTGRES" format-version="4.0">
+    <root id="1"/>
+    <database id="2" parent="1" name="postgres">
+      <ObjectId>12669</ObjectId>
+      <Current>1</Current>
+      <Visible>1</Visible>
+    </database>
+    <schema id="3" parent="2" name="public">
+      <ObjectId>2200</ObjectId>
+      <IntrospectionTimestamp>2017-02-21.21:12:01.726</IntrospectionTimestamp>
+      <IntrospectionStateNumber>10635</IntrospectionStateNumber>
+      <Current>1</Current>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="4" parent="2" name="pg_catalog">
+      <ObjectId>11</ObjectId>
+    </schema>
+    <schema id="5" parent="2" name="pg_toast">
+      <ObjectId>99</ObjectId>
+    </schema>
+    <schema id="6" parent="2" name="pg_temp_1">
+      <ObjectId>11848</ObjectId>
+    </schema>
+    <schema id="7" parent="2" name="pg_toast_temp_1">
+      <ObjectId>11849</ObjectId>
+    </schema>
+    <schema id="8" parent="2" name="information_schema">
+      <ObjectId>12381</ObjectId>
+    </schema>
+    <schema id="9" parent="2" name="helloworld">
+      <ObjectId>16393</ObjectId>
+    </schema>
+    <sequence id="10" parent="3" name="address_seq">
+      <ObjectId>65198</ObjectId>
+      <StateNumber>8907</StateNumber>
+      <SequenceIdentity>1</SequenceIdentity>
+    </sequence>
+    <sequence id="11" parent="3" name="boot_camp_seq">
+      <ObjectId>65200</ObjectId>
+      <StateNumber>8908</StateNumber>
+      <SequenceIdentity>1</SequenceIdentity>
+    </sequence>
+    <sequence id="12" parent="3" name="chat_msg_sequence">
+      <ObjectId>76210</ObjectId>
+      <StateNumber>10592</StateNumber>
+      <SequenceIdentity>1</SequenceIdentity>
+    </sequence>
+    <sequence id="13" parent="3" name="chat_user_sequence">
+      <ObjectId>76212</ObjectId>
+      <StateNumber>10593</StateNumber>
+      <SequenceIdentity>1</SequenceIdentity>
+    </sequence>
+    <sequence id="14" parent="3" name="chatmsg_sequence">
+      <ObjectId>66997</ObjectId>
+      <StateNumber>9863</StateNumber>
+      <SequenceIdentity>1</SequenceIdentity>
+    </sequence>
+    <sequence id="15" parent="3" name="chatuser_sequence">
+      <ObjectId>66999</ObjectId>
+      <StateNumber>9864</StateNumber>
+      <SequenceIdentity>1</SequenceIdentity>
+    </sequence>
+    <sequence id="16" parent="3" name="company_seq">
+      <ObjectId>65202</ObjectId>
+      <StateNumber>8909</StateNumber>
+      <SequenceIdentity>1</SequenceIdentity>
+    </sequence>
+    <sequence id="17" parent="3" name="groceries_id_seq">
+      <ObjectId>24630</ObjectId>
+      <StateNumber>940</StateNumber>
+      <SequenceIdentity>1</SequenceIdentity>
+    </sequence>
+    <sequence id="18" parent="3" name="grocery_item_seq">
+      <ObjectId>51341</ObjectId>
+      <StateNumber>2209</StateNumber>
+      <SequenceIdentity>1</SequenceIdentity>
+    </sequence>
+    <sequence id="19" parent="3" name="grocery_store_seq">
+      <ObjectId>51343</ObjectId>
+      <StateNumber>2210</StateNumber>
+      <SequenceIdentity>1</SequenceIdentity>
+    </sequence>
+    <sequence id="20" parent="3" name="hibernate_sequence">
+      <ObjectId>66651</ObjectId>
+      <StateNumber>9702</StateNumber>
+      <SequenceIdentity>1</SequenceIdentity>
+    </sequence>
+    <sequence id="21" parent="3" name="instructor_seq">
+      <ObjectId>65204</ObjectId>
+      <StateNumber>8910</StateNumber>
+      <SequenceIdentity>1</SequenceIdentity>
+    </sequence>
+    <sequence id="22" parent="3" name="msg_board_sequence">
+      <ObjectId>76214</ObjectId>
+      <StateNumber>10594</StateNumber>
+      <SequenceIdentity>1</SequenceIdentity>
+    </sequence>
+    <sequence id="23" parent="3" name="msgboard_sequence">
+      <ObjectId>67001</ObjectId>
+      <StateNumber>9865</StateNumber>
+      <SequenceIdentity>1</SequenceIdentity>
+    </sequence>
+    <sequence id="24" parent="3" name="mvusr_sequence">
+      <ObjectId>66655</ObjectId>
+      <StateNumber>9704</StateNumber>
+      <SequenceIdentity>1</SequenceIdentity>
+    </sequence>
+    <sequence id="25" parent="3" name="pets_pet_id_seq">
+      <ObjectId>24579</ObjectId>
+      <StateNumber>876</StateNumber>
+      <SequenceIdentity>1</SequenceIdentity>
+    </sequence>
+    <sequence id="26" parent="3" name="purchases_seq">
+      <ObjectId>51345</ObjectId>
+      <StateNumber>2211</StateNumber>
+      <SequenceIdentity>1</SequenceIdentity>
+    </sequence>
+    <sequence id="27" parent="3" name="shopping_person_seq">
+      <ObjectId>51347</ObjectId>
+      <StateNumber>2212</StateNumber>
+      <SequenceIdentity>1</SequenceIdentity>
+    </sequence>
+    <sequence id="28" parent="3" name="student_seq">
+      <ObjectId>65206</ObjectId>
+      <StateNumber>8911</StateNumber>
+      <SequenceIdentity>1</SequenceIdentity>
+    </sequence>
+    <sequence id="29" parent="3" name="token_sequence">
+      <ObjectId>76281</ObjectId>
+      <StateNumber>10629</StateNumber>
+      <SequenceIdentity>1</SequenceIdentity>
+    </sequence>
+    <sequence id="30" parent="3" name="user_id_seq">
+      <ObjectId>32800</ObjectId>
+      <StateNumber>1054</StateNumber>
+      <SequenceIdentity>1</SequenceIdentity>
+    </sequence>
+    <sequence id="31" parent="3" name="user_permission_sequence">
+      <ObjectId>76216</ObjectId>
+      <StateNumber>10595</StateNumber>
+      <SequenceIdentity>1</SequenceIdentity>
+    </sequence>
+    <sequence id="32" parent="3" name="userpermissioin_sequence">
+      <ObjectId>67003</ObjectId>
+      <StateNumber>9866</StateNumber>
+      <SequenceIdentity>1</SequenceIdentity>
+    </sequence>
+    <table id="33" parent="3" name="chat_message">
+      <ObjectId>76218</ObjectId>
+      <StateNumber>10606</StateNumber>
+    </table>
+    <table id="34" parent="3" name="chat_token">
+      <ObjectId>76289</ObjectId>
+      <StateNumber>10635</StateNumber>
+    </table>
+    <table id="35" parent="3" name="chat_user">
+      <ObjectId>76226</ObjectId>
+      <StateNumber>10635</StateNumber>
+    </table>
+    <table id="36" parent="3" name="message_board">
+      <ObjectId>76234</ObjectId>
+      <StateNumber>10607</StateNumber>
+    </table>
+    <table id="37" parent="3" name="message_board_chat_messages">
+      <ObjectId>76239</ObjectId>
+      <StateNumber>10607</StateNumber>
+    </table>
+    <table id="38" parent="3" name="user_permission">
+      <ObjectId>76242</ObjectId>
+      <StateNumber>10605</StateNumber>
+    </table>
+    <column id="39" parent="33" name="id">
+      <Position>1</Position>
+      <DataType>bigint|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>10596</StateNumber>
+    </column>
+    <column id="40" parent="33" name="message_text">
+      <Position>2</Position>
+      <DataType>varchar(512)|0</DataType>
+      <StateNumber>10596</StateNumber>
+    </column>
+    <column id="41" parent="33" name="pic_file_name">
+      <Position>3</Position>
+      <DataType>varchar(255)|0</DataType>
+      <StateNumber>10596</StateNumber>
+    </column>
+    <column id="42" parent="33" name="post_time">
+      <Position>4</Position>
+      <DataType>timestamp|0</DataType>
+      <StateNumber>10596</StateNumber>
+    </column>
+    <column id="43" parent="33" name="chat_user_id">
+      <Position>5</Position>
+      <DataType>bigint|0</DataType>
+      <StateNumber>10596</StateNumber>
+    </column>
+    <column id="44" parent="33" name="message_board_id">
+      <Position>6</Position>
+      <DataType>bigint|0</DataType>
+      <StateNumber>10596</StateNumber>
+    </column>
+    <index id="45" parent="33" name="chat_message_pkey">
+      <ObjectId>76224</ObjectId>
+      <ColNames>id</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="46" parent="33" name="chat_message_pkey">
+      <ObjectId>76225</ObjectId>
+      <ColNames>id</ColNames>
+      <UnderlyingIndexName>chat_message_pkey</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="47" parent="33" name="fkjcrj63ogx1ikfdndcpg1jlu4f">
+      <ObjectId>76251</ObjectId>
+      <ColNames>chat_user_id</ColNames>
+      <RefTableName>chat_user</RefTableName>
+      <RefKeyName>chat_user_pkey</RefKeyName>
+      <RefColNames>id</RefColNames>
+    </foreign-key>
+    <foreign-key id="48" parent="33" name="fklohpifxmweu6yh2fj3yooa6ef">
+      <ObjectId>76256</ObjectId>
+      <ColNames>message_board_id</ColNames>
+      <RefTableName>message_board</RefTableName>
+      <RefKeyName>message_board_pkey</RefKeyName>
+      <RefColNames>id</RefColNames>
+    </foreign-key>
+    <column id="49" parent="34" name="id">
+      <Position>1</Position>
+      <DataType>bigint|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>10634</StateNumber>
+    </column>
+    <column id="50" parent="34" name="creation_time">
+      <Position>2</Position>
+      <DataType>timestamp|0</DataType>
+      <StateNumber>10634</StateNumber>
+    </column>
+    <column id="51" parent="34" name="num_of_calls">
+      <Position>3</Position>
+      <DataType>bigint|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>10634</StateNumber>
+    </column>
+    <column id="52" parent="34" name="token_string">
+      <Position>4</Position>
+      <DataType>varchar(255)|0</DataType>
+      <StateNumber>10634</StateNumber>
+    </column>
+    <column id="53" parent="34" name="chat_user_id">
+      <Position>5</Position>
+      <DataType>bigint|0</DataType>
+      <StateNumber>10634</StateNumber>
+    </column>
+    <index id="54" parent="34" name="chat_token_pkey">
+      <ObjectId>76292</ObjectId>
+      <ColNames>id</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="55" parent="34" name="chat_token_pkey">
+      <ObjectId>76293</ObjectId>
+      <ColNames>id</ColNames>
+      <UnderlyingIndexName>chat_token_pkey</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="56" parent="34" name="fkck7m0sx6qv4kf7xirb9a85lko">
+      <ObjectId>76294</ObjectId>
+      <ColNames>chat_user_id</ColNames>
+      <RefTableName>chat_user</RefTableName>
+      <RefKeyName>chat_user_pkey</RefKeyName>
+      <RefColNames>id</RefColNames>
+    </foreign-key>
+    <column id="57" parent="35" name="id">
+      <Position>1</Position>
+      <DataType>bigint|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>10597</StateNumber>
+    </column>
+    <column id="58" parent="35" name="display_name">
+      <Position>2</Position>
+      <DataType>varchar(255)|0</DataType>
+      <StateNumber>10597</StateNumber>
+    </column>
+    <column id="59" parent="35" name="password">
+      <Position>3</Position>
+      <DataType>varchar(255)|0</DataType>
+      <StateNumber>10597</StateNumber>
+    </column>
+    <column id="60" parent="35" name="photo_file">
+      <Position>4</Position>
+      <DataType>varchar(255)|0</DataType>
+      <StateNumber>10597</StateNumber>
+    </column>
+    <column id="61" parent="35" name="small_photo_file">
+      <Position>5</Position>
+      <DataType>varchar(255)|0</DataType>
+      <StateNumber>10597</StateNumber>
+    </column>
+    <column id="62" parent="35" name="username">
+      <Position>6</Position>
+      <DataType>varchar(255)|0</DataType>
+      <StateNumber>10597</StateNumber>
+    </column>
+    <column id="63" parent="35" name="user_permission_id">
+      <Position>7</Position>
+      <DataType>bigint|0</DataType>
+      <StateNumber>10597</StateNumber>
+    </column>
+    <index id="64" parent="35" name="chat_user_pkey">
+      <ObjectId>76232</ObjectId>
+      <ColNames>id</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <index id="65" parent="35" name="uk_srmq2kk0ej0hb8l35xc6cf3wa">
+      <ObjectId>76247</ObjectId>
+      <ColNames>username</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="66" parent="35" name="chat_user_pkey">
+      <ObjectId>76233</ObjectId>
+      <ColNames>id</ColNames>
+      <UnderlyingIndexName>chat_user_pkey</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <key id="67" parent="35" name="uk_srmq2kk0ej0hb8l35xc6cf3wa">
+      <ObjectId>76248</ObjectId>
+      <ColNames>username</ColNames>
+      <UnderlyingIndexName>uk_srmq2kk0ej0hb8l35xc6cf3wa</UnderlyingIndexName>
+    </key>
+    <foreign-key id="68" parent="35" name="fk4iaxvyh4w79nkisxv7eovep8c">
+      <ObjectId>76261</ObjectId>
+      <ColNames>user_permission_id</ColNames>
+      <RefTableName>user_permission</RefTableName>
+      <RefKeyName>user_permission_pkey</RefKeyName>
+      <RefColNames>id</RefColNames>
+    </foreign-key>
+    <column id="69" parent="36" name="id">
+      <Position>1</Position>
+      <DataType>bigint|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>10598</StateNumber>
+    </column>
+    <column id="70" parent="36" name="creation_date">
+      <Position>2</Position>
+      <DataType>timestamp|0</DataType>
+      <StateNumber>10598</StateNumber>
+    </column>
+    <column id="71" parent="36" name="name">
+      <Position>3</Position>
+      <DataType>varchar(255)|0</DataType>
+      <StateNumber>10598</StateNumber>
+    </column>
+    <index id="72" parent="36" name="message_board_pkey">
+      <ObjectId>76237</ObjectId>
+      <ColNames>id</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="73" parent="36" name="message_board_pkey">
+      <ObjectId>76238</ObjectId>
+      <ColNames>id</ColNames>
+      <UnderlyingIndexName>message_board_pkey</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="74" parent="37" name="message_board_id">
+      <Position>1</Position>
+      <DataType>bigint|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>10599</StateNumber>
+    </column>
+    <column id="75" parent="37" name="chat_messages_id">
+      <Position>2</Position>
+      <DataType>bigint|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>10599</StateNumber>
+    </column>
+    <index id="76" parent="37" name="uk_kh817j0behdee38yqgvgux0js">
+      <ObjectId>76249</ObjectId>
+      <ColNames>chat_messages_id</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="77" parent="37" name="uk_kh817j0behdee38yqgvgux0js">
+      <ObjectId>76250</ObjectId>
+      <ColNames>chat_messages_id</ColNames>
+      <UnderlyingIndexName>uk_kh817j0behdee38yqgvgux0js</UnderlyingIndexName>
+    </key>
+    <foreign-key id="78" parent="37" name="fkjkmr5vmdc1ebbwuqrdkfsnv8l">
+      <ObjectId>76271</ObjectId>
+      <ColNames>message_board_id</ColNames>
+      <RefTableName>message_board</RefTableName>
+      <RefKeyName>message_board_pkey</RefKeyName>
+      <RefColNames>id</RefColNames>
+    </foreign-key>
+    <foreign-key id="79" parent="37" name="fkakyf08s5my29ot8j5pagor72x">
+      <ObjectId>76266</ObjectId>
+      <ColNames>chat_messages_id</ColNames>
+      <RefTableName>chat_message</RefTableName>
+      <RefKeyName>chat_message_pkey</RefKeyName>
+      <RefColNames>id</RefColNames>
+    </foreign-key>
+    <column id="80" parent="38" name="id">
+      <Position>1</Position>
+      <DataType>bigint|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>10600</StateNumber>
+    </column>
+    <column id="81" parent="38" name="create_msg_board_permission">
+      <Position>2</Position>
+      <DataType>boolean|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>10600</StateNumber>
+    </column>
+    <column id="82" parent="38" name="create_user_permission">
+      <Position>3</Position>
+      <DataType>boolean|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>10600</StateNumber>
+    </column>
+    <column id="83" parent="38" name="post_msg_permission">
+      <Position>4</Position>
+      <DataType>boolean|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>10600</StateNumber>
+    </column>
+    <index id="84" parent="38" name="user_permission_pkey">
+      <ObjectId>76245</ObjectId>
+      <ColNames>id</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="85" parent="38" name="user_permission_pkey">
+      <ObjectId>76246</ObjectId>
+      <ColNames>id</ColNames>
+      <UnderlyingIndexName>user_permission_pkey</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+  </database-model>
+</dataSource>
